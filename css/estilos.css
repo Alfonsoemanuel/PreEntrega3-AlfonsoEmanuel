@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    padding: 10px;
+    margin-inline: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.logo{
+    text-align: center;
+}
+.quiensoy{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.teoagua{
+    justify-content: center;
+}
+.parrafo{
+    text-align: left;
+}
+
+h1{
+    margin: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: white;
+    text-decoration: underline;
+    margin-block: 20px;
+    text-align: center;
+}
+
+.parrafo{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.merchandising{
+    margin: 10px;
+    padding-left: 20px;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: solid white;
+}
+.remera{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.buzo{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.gorra{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.llavero{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.campera{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.vinilo{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "teo1 teo2"
+    "teo3 teo4"
+    "teo5";
+}
+
+.teo1{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo2{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo3{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo4{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo5{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.recitales{
+margin-right: 350px;
+margin-block: 100px;
+padding-left: 400px;
+}
+
+.formulario{
+    padding-bottom: 10px;
+    padding-inline: 250px;
+    border: 0px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 20px;
+}
+.redes{
+    align-items: center;
+}
+.facebook{
+    padding-inline: 50px;
+}
+.instagram{
+    padding-left: 50px;
+}
+.spotyfi{
+    padding-inline: 50px;
+}
+.tiktok{
+    padding-right: 60px;
+}
+
+@media (max-width: 1024px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+        justify-items: center;
+    }
+    .remera{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .campera{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .vinilo{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "teo1 teo2"
+        "teo3 teo4"
+        "teo6";
+    }
+    .teo1{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .recitales{
+        margin-block: 0;
+        padding-left: 2px;
+    }
+    .velez{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .opera{
+            width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .vorterix{
+            width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+    }
+    .teoagua{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-right: 90px;
+        padding-bottom: 15px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+        justify-items: center;
+    }
+    .remera{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+    .campera{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+    .vinilo{
+        width: 550px;
+        height: 450px;
+        margin-top: 15px;
+    }
+
+    .galeria{
+        padding-left: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .teo1{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .recitales{
+        margin-block: 0;
+        padding-left: 10px;
+    }
+    .velez{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .opera{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .vorterix{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+    }
+    .teoagua{
+    width: 600px;
+    height: 500px;
+    margin-top: 15px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-right: 50px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado{
+        width: 450px;
+        height: 300px;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+    }
+    .remera{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .campera{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .vinilo{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .teo1{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+
+    .recitales{
+        margin-block: 0;
+        padding-left: 2px;
+    }
+    .velez{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+        .opera{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+        .vorterix{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+    }
+    .teoagua{
+        width: 400px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .formulario{
+        padding-inline: 5px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-right: 50px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
+    }
+}
