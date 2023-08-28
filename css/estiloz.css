@@ -462,6 +462,7 @@ footer .redes .tiktok {
   display: flex;
   align-items: center;
   text-align: center;
+  gap: 2rem;
 }
 .quiensoy .teoagua {
   justify-content: center;
