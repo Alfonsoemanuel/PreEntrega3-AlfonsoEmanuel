@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    margin-inline: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+.logo {
+    text-align: center;
+}
+
+body{
+    background-color: $color-primario;
+}
+
+h1{
+    margin: 5px * 10;
+    color: $color-terciario;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: $color-terciario;
+    text-decoration: underline;
+    margin-block: 5px * 4;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    background-color: $color-secundario;
+    padding: 20px;
+    .redes{
+        align-items: center;
+        .facebook{
+            padding-inline: 50px;
+        }
+        .instagram{
+            padding-left: 50px;
+        }
+        .spotyfi{
+            padding-inline: 50px;
+        }
+        .tiktok{
+            padding-right: 60px;
+        }
+    }
+}
