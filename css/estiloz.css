@@ -63,6 +63,22 @@ footer .redes .tiktok {
   padding-right: 60px;
 }
 
+.facebook:hover {
+  transform: scale(2);
+}
+
+.instagram:hover {
+  transform: scale(2);
+}
+
+.spotyfi:hover {
+  transform: scale(2);
+}
+
+.tiktok:hover {
+  transform: scale(2);
+}
+
 @media (max-width: 1024px) {
   .productos {
     display: grid;
