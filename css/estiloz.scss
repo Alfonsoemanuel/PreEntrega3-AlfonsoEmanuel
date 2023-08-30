@@ -29,40 +29,22 @@
         padding: 50px;
         border: solid $color-terciario;
         .remera{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
         .buzo{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
         .gorra{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
         .llavero{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
         .campera{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
         .vinilo{
-            padding: 10px;
-            border: 2px solid $color-terciario;
-            justify-content: center;
-            text-align: center;
+            @include mercaderia;
         }
     }
 }
@@ -76,29 +58,19 @@
     "teo3 teo4"
     "teo5";
     .teo1{
-        justify-content: center;
-        text-align: center;
-        padding: 8px;
+        @include galerucha;
     }
     .teo2{
-        justify-content: center;
-        text-align: center;
-        padding: 8px;
+        @include galerucha;
     }
     .teo3{
-        justify-content: center;
-        text-align: center;
-        padding: 8px;
+        @include galerucha;
     }
     .teo4{
-        justify-content: center;
-        text-align: center;
-        padding: 8px;
+        @include galerucha;
     }
     .teo5{
-        justify-content: center;
-        text-align: center;
-        padding: 8px;
+        @include galerucha;
     }
 }
 

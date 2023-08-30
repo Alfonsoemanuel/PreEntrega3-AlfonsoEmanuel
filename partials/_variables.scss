@@ -1,3 +1,16 @@
 $color-primario: #000000;
 $color-secundario: #9acd32;
 $color-terciario: #f5f5f5;
+
+@mixin mercaderia {
+    padding: 10px;
+    border: 2px solid #f5f5f5;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin galerucha {
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
