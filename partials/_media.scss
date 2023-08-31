@@ -249,12 +249,8 @@
     }
 
     .quiensoy{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "parrafo"
-        "teoagua";
+        display: flex;
+        flex-direction: column-reverse;
         .teoagua{
             width: 600px;
             height: 500px;
@@ -390,12 +386,8 @@
     }
 
     .quiensoy{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: 
-        "parrafo"
-        "teoagua";
+        display: flex;
+        flex-direction: column-reverse;
         .teoagua{
             width: 400px;
             height: 400px;

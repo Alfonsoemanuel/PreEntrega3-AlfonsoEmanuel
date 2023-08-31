@@ -317,10 +317,8 @@ footer .redes .tiktok {
     margin-top: 15px;
   }
   .quiensoy {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "parrafo" "teoagua";
+    display: flex;
+    flex-direction: column-reverse;
   }
   .quiensoy .teoagua {
     width: 600px;
@@ -447,10 +445,8 @@ footer .redes .tiktok {
     margin-top: 15px;
   }
   .quiensoy {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "parrafo" "teoagua";
+    display: flex;
+    flex-direction: column-reverse;
   }
   .quiensoy .teoagua {
     width: 400px;
