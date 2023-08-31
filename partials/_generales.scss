@@ -46,23 +46,20 @@ footer{
     margin-top: 10px;
     padding: 5px;
     .redes{
+        margin-top: 18px;
         align-items: center;
-        padding-top: 18px;
-        .li{
-            display: inline-block;
-        }
-        .facebook{
-            padding-inline: 150px;
-        }
-        .instagram{
-            padding-inline: 150px;
-        }
-        .spotyfi{
-            padding-inline: 140px;
-        }
-        .tiktok{
-            padding-inline: 150px;
-        }
+    }
+    .facebook{
+        padding-right: 85px;
+    }
+    .instagram{
+        padding-inline: 85px;
+    }
+    .spotyfi{
+        padding-inline: 85px;
+    }
+    .tiktok{
+        padding-inline-start: 75px;
     }
 }
 

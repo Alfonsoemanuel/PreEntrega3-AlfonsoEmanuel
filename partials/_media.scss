@@ -260,23 +260,20 @@
 
 
     .redes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "facebook instagram"
-        "spotyfi tiktok";
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
         .facebook{
-            padding-left: 10px;
+            padding-inline: 35px;
         }
         .instagram{
-            padding-right: 50px;
+            padding-inline: 55px;
         }
         .spotyfi{
-            padding-left: 10px;
+            padding-inline: 55px;
         }
         .tiktok{
-            padding-left: 10px;
+            padding-inline-start: 35px;
         }
     }
 }
@@ -400,23 +397,20 @@
     }
 
     .redes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "facebook instagram"
-        "spotyfi tiktok";
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
         .facebook{
-            padding-left: 10px;
+            padding-inline: 5px;
         }
         .instagram{
-            padding-right: 85px;
+            padding-inline: 5px;
         }
         .spotyfi{
-            padding-left: 10px;
+            padding-inline: 5px;
         }
         .tiktok{
-            padding-left: 10px;
+            padding-inline-start: 5px;
         }
     }
 }

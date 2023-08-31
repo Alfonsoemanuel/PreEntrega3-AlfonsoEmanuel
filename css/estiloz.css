@@ -49,23 +49,20 @@ footer {
   padding: 5px;
 }
 footer .redes {
+  margin-top: 18px;
   align-items: center;
-  padding-top: 18px;
 }
-footer .redes .li {
-  display: inline-block;
+footer .facebook {
+  padding-right: 85px;
 }
-footer .redes .facebook {
-  padding-inline: 150px;
+footer .instagram {
+  padding-inline: 85px;
 }
-footer .redes .instagram {
-  padding-inline: 150px;
+footer .spotyfi {
+  padding-inline: 85px;
 }
-footer .redes .spotyfi {
-  padding-inline: 140px;
-}
-footer .redes .tiktok {
-  padding-inline: 150px;
+footer .tiktok {
+  padding-inline-start: 75px;
 }
 
 .facebook:hover {
@@ -326,22 +323,21 @@ footer .redes .tiktok {
     margin-top: 15px;
   }
   .redes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "facebook instagram" "spotyfi tiktok";
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
   }
   .redes .facebook {
-    padding-left: 10px;
+    padding-inline: 35px;
   }
   .redes .instagram {
-    padding-right: 50px;
+    padding-inline: 55px;
   }
   .redes .spotyfi {
-    padding-left: 10px;
+    padding-inline: 55px;
   }
   .redes .tiktok {
-    padding-left: 10px;
+    padding-inline-start: 35px;
   }
 }
 @media (max-width: 480px) {
@@ -457,22 +453,21 @@ footer .redes .tiktok {
     padding-inline: 5px;
   }
   .redes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "facebook instagram" "spotyfi tiktok";
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
   }
   .redes .facebook {
-    padding-left: 10px;
+    padding-inline: 5px;
   }
   .redes .instagram {
-    padding-right: 85px;
+    padding-inline: 5px;
   }
   .redes .spotyfi {
-    padding-left: 10px;
+    padding-inline: 5px;
   }
   .redes .tiktok {
-    padding-left: 10px;
+    padding-inline-start: 5px;
   }
 }
 .quiensoy {
