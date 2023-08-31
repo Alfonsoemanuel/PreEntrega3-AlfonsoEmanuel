@@ -43,20 +43,25 @@ li{
 footer{
     text-align: center;
     background-color: $color-secundario;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 15px;
     .redes{
         align-items: center;
+        padding-top: 15px;
+        .li{
+            display: inline-block;
+        }
         .facebook{
-            padding-inline: 50px;
+            padding-inline: 150px;
         }
         .instagram{
-            padding-left: 50px;
+            padding-inline: 150px;
         }
         .spotyfi{
-            padding-inline: 50px;
+            padding-inline: 140px;
         }
         .tiktok{
-            padding-right: 60px;
+            padding-inline: 150px;
         }
     }
 }

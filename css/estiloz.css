@@ -45,22 +45,27 @@ li {
 footer {
   text-align: center;
   background-color: #9acd32;
-  padding: 20px;
+  margin-top: 10px;
+  padding: 15px;
 }
 footer .redes {
   align-items: center;
+  padding-top: 15px;
+}
+footer .redes .li {
+  display: inline-block;
 }
 footer .redes .facebook {
-  padding-inline: 50px;
+  padding-inline: 150px;
 }
 footer .redes .instagram {
-  padding-left: 50px;
+  padding-inline: 150px;
 }
 footer .redes .spotyfi {
-  padding-inline: 50px;
+  padding-inline: 140px;
 }
 footer .redes .tiktok {
-  padding-right: 60px;
+  padding-inline: 150px;
 }
 
 .facebook:hover {
