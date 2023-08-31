@@ -412,8 +412,8 @@ footer .tiktok {
     margin-top: 15px;
   }
   .recitales {
-    margin-block: 0;
-    padding-left: 2px;
+    display: flex;
+    flex-direction: column;
   }
   .recitales .velez {
     width: 450px;

@@ -353,8 +353,8 @@
 
 
     .recitales{
-        margin-block: 0;
-        padding-left: 2px;
+        display: flex;
+        flex-direction: column;
         .velez{
             width: 450px;
             height: 200px;
