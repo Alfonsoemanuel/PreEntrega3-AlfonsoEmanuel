@@ -576,9 +576,9 @@ footer .redes .tiktok {
 }
 
 .recitales {
-  margin-right: 350px;
-  margin-block: 100px;
-  padding-left: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .formulario {
